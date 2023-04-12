@@ -20,7 +20,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 100%;
+    z-index: 2;
 }
 
 .logo{
@@ -36,10 +36,11 @@ header{
     border-radius: 20px;
     margin: 0 10px;
     font-weight: 600;
+    cursor: pointer;
+    background: #f9f9f9;
 }
 
-.navigation a:hover,
-.navigation a.active{
+.navigation a:hover{
     background: #359381;
     color: #fff;
 }
@@ -83,4 +84,8 @@ header{
     font-size: 1em;
     color: #fff;
     font-weight: 300;
+}
+
+img{
+    height: 100vh;
 }
